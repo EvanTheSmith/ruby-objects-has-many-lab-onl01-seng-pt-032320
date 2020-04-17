@@ -11,6 +11,10 @@ class Song
   def save
     @@all << self
   end
+  
+   def artist_name
+   self.artist != nil ? self.artist.name : nil
+  end
  
   def self.all
     @@all
