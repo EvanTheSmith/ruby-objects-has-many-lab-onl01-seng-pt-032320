@@ -4,4 +4,6 @@ class Artist
     @name = name
     @songs = []
   end
+  
+  
 end
